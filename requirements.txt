@@ -8,6 +8,7 @@ noisereduce==3.0.3
 weasyprint==66.0
 librosa==0.11.0
 soundfile==0.13.1
-numpy==1.25.2
-scipy==1.10.0
+numpy==1.24.3  # Older, more stable version
+scipy==1.10.1  # Compatible with numpy 1.24
 gunicorn==21.2.0
+setuptools==65.5.0  # Add setuptools explicitly
